@@ -1,0 +1,27 @@
+<!-- ****** EN ESTE DOCUMENTO SE DECLARAN TODAS LAS TABS DEL APP ******* -->
+
+<ion-tabs class="tabs-striped tabs-background-stable tabs-color-positive tabs-bottom">
+
+
+        <!-- El href indica la direccion a la que queremos ir, indicando el padre y el hijo -->
+        <ion-tab title="MisFinds" icon="ion-search" href="#/tab/finds" nav-direction="swap"> 
+
+        <!-- Se indica el nombre que tiene el view en el .js -->
+        <ion-nav-view name="finds-tab">
+
+        <!-- Aquí dentro estará todo el contenido del tab indicado -->
+        </ion-nav-view>
+        </ion-tab>
+
+
+
+        <ion-tab title="NuevoFind" icon="ion-ios-heart" href="#/tab/newfind" nav-direction="swap">
+          <ion-nav-view name="newfind-tab"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab title="Mapa" icon="ion-map" href="#/tab/map" nav-direction="swap">
+          <ion-nav-view name="map-tab"></ion-nav-view>
+        </ion-tab>
+
+
+</ion-tabs>

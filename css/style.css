@@ -1,0 +1,29 @@
+/* Empty. Add your own CSS if you like */
+.anchor{
+	text-decoration: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.divider{
+	border-bottom: solid 1px gray;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.clear{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.lastphoto{
+	max-width: 60%;
+	margin: 0 auto;
+	display: block;
+}
